@@ -77,6 +77,8 @@ public abstract class ApptDecorator implements ApptsForMonth {
 		 if(day == dayOfMonth){
 			next.printAppointments(day);
 			System.out.println(toString());
+		 }else{
+			next.printAppointments(day);
 		 }
 	}
 	@Override
